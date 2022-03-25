@@ -12,6 +12,7 @@ export default defineConfig({
 			registerType: 'autoUpdate',
 			workbox: {
 				maximumFileSizeToCacheInBytes: Number.MAX_SAFE_INTEGER,
+				cleanupOutdatedCaches: false,
 			},
 			manifest: {
 				name: 'Tacticboard',
